@@ -17,12 +17,14 @@ if(val<SWITCH_COUNT)
 		SIM->SCGC5 |= (1UL << 9);
 		PORTA->PCR[19] |= (1UL << 8); // GPIO
 		PORTA->PCR[19] |= (3UL << 0); //PE|PS
+		PORTA->PCR[19] |= (0xB << 16); //interrupt on both edge
 	}
 	else if(val == 1)
 	{
 		SIM->SCGC5 |= (1UL << 13);
-		PORTE->PCR[26] |=(1UL << 8);
-		PORTE->PCR[26] |= (3UL << 0);
+		PORTE->PCR[26] |=(1UL << 8); //GPIO
+		PORTE->PCR[26] |= (3UL << 0); //PE|PS
+		PORTE->PCR[26] |=(0xB << 16); //interrupt on both edge
 	}
 return 0;
 }
