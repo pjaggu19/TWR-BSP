@@ -1,0 +1,38 @@
+Dependencies for Project 'Project1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5A6846C8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I D:\TWR-Expo\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DMK60DN512xxx10-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\MK60D10.h)(0x585B9F32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E0D62)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\system_MK60D10.h)(0x57515288)
+I (led.h)(0x5A672DBC)
+I (switch.h)(0x5A684280)
+F (.\Led.c)(0x5A672D98)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I D:\TWR-Expo\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DMK60DN512xxx10-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\MK60D10.h)(0x585B9F32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E0D62)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\system_MK60D10.h)(0x57515288)
+I (led.h)(0x5A672DBC)
+F (.\Switch.c)(0x5A6846C8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I D:\TWR-Expo\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DMK60DN512xxx10-o .\objects\switch.o --omf_browse .\objects\switch.crf --depend .\objects\switch.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\MK60D10.h)(0x585B9F32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E0D62)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\system_MK60D10.h)(0x57515288)
+I (Switch.h)(0x5A684280)
+F (RTE\Device\MK60DN512xxx10\startup_MK60D10.s)(0x57515288)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I D:\TWR-Expo\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "MK60DN512xxx10 SETA 1"--list .\listings\startup_mk60d10.lst --xref -o .\objects\startup_mk60d10.o --depend .\objects\startup_mk60d10.d)
+F (RTE\Device\MK60DN512xxx10\system_MK60D10.c)(0x57515288)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I D:\TWR-Expo\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DMK60DN512xxx10-o .\objects\system_mk60d10.o --omf_browse .\objects\system_mk60d10.crf --depend .\objects\system_mk60d10.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569E0D62)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\MK60D10.h)(0x585B9F32)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm4.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D7F22)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\system_MK60D10.h)(0x57515288)
